@@ -1,0 +1,322 @@
+@font-face {
+  font-family: "Tilt-Prism";
+  src: url("./TiltPrism-Regular.ttf");
+}
+@font-face {
+  font-family: "Dancing-Script";
+  src: url("./DancingScript-Regular.ttf");
+}
+@font-face {
+  font-family: "Satisfy";
+  src: url("./Satisfy-Regular.ttf");
+}
+
+/************* toutes les pages ************/
+
+/************* header **************/
+body {
+  max-width: 1440px;
+  margin: auto;
+}
+
+h1 {
+  font-family: "Tilt-Prism";
+  color: white;
+  font-size: 50px;
+  margin-top: 40px;
+}
+
+h2,
+h3,
+h4 {
+  font-family: "Satisfy";
+}
+
+body {
+  background-color: black;
+  color : white;
+  font-family : verdana;
+  font-size: 25px;
+}
+
+main {
+  margin:0 auto;
+  text-align: center;
+  align-content: center;
+}
+
+#qualité {
+  font-family : Trebuchet MS;
+  font-weight : 900;
+}
+
+ul {
+  list-style-type: none;
+}
+
+* {
+  box-sizing:border-box
+}
+
+a {
+  font-family: "Satisfy";
+  text-decoration: none;
+  color: rgb(171, 171, 171);
+}
+
+a:hover {
+  transition: 0.2s;
+  padding: 5px;
+  border: solid white 2px;
+  border-radius: 10px;
+}
+
+.verdana {
+  font-family: verdana;
+}
+
+.slides {
+  width: 500px;
+  height: 600px;
+  border-radius: 20px;
+  margin: auto;
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 596px;
+  border-radius: 20px;
+}
+
+.imgAnnex {
+  width: 300px;
+  height: 600px;
+}
+
+.boutons {
+  position: absolute;
+  top: 250px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 450px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  background-color: rgba(255, 255, 255, 0.452);
+  color: aliceblue;
+  margin: 20px;
+  padding: 0px;
+  width: 50px;
+  height: 50px;
+  border: solid white 2px;
+  border-radius: 15px;
+}
+
+button:hover {
+  transition: 0.5s;
+  margin: 18px;
+  padding: 2px;
+  width: 52px;
+  height: 52px;
+  background-color: white;
+  color: black;
+  border: solid black 2px;
+}
+
+button:active {
+  transition: 0.1s;
+  margin: 13px;
+  padding: 7px;
+  width: 57px;
+  height: 57px;
+}
+
+.relative {
+  position: relative;
+  margin: auto;
+}
+
+.positionAbsolute {
+  position: absolute;
+}
+
+p {
+  font-family: "Satisfy";
+}
+
+.a {
+  font-family: "Dancing-Script";
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #ffffff73;
+
+}
+
+.a:hover {
+  padding: 13px;
+  transition: 0.5s;
+}
+
+.aIncipit {
+  top: 30px;
+  left: 140px;
+  font-size: 30px;
+  
+}
+
+.aCurriculum_Vitae {
+  top: 30px;
+  left: 70px;
+  font-size: 30px;
+}
+
+.aFilmographie {
+  bottom: 30px;
+  left: 50%;
+  font-size: 50px;
+  transform: translateX(-50%);
+}
+
+.aAcoeur {
+  bottom: 20px;
+  right: 60px;
+  font-size: 30px;
+}
+
+.aEpilogue {
+  top: 0px;
+  left: 50%;
+  font-size: 30px;
+  justify-content: center;
+  transform: translateX(-50%);
+}
+
+/**************** Incipit ***************************/
+.divPresentation {
+  font-size: 25px;
+}
+
+span {
+font-size: larger;
+font-weight: bolder;
+}
+
+/*************** page CV **********************/
+.divsommaire{
+  font-size: 35px;
+}
+
+.divintitulé {
+  font-size: 25px;
+}
+
+/*************** page à coeur **********************/
+.divChakras {
+font-size: 30px;
+}         
+
+.divRaison {
+  font-size: 40px;
+  }   
+
+/**************** page filmographie ****************/
+
+.divMesgraines {
+  font-size: 30px;
+}
+
+.divPrecisions {
+font-size: 30px;
+}
+
+.divNotes{
+  font-size: 25px;
+  font-family: "Satisfy";
+}
+
+
+.divGauche {
+  text-align: left;
+  padding-left: 50px;
+  font-size: 20px;
+}
+
+.divDroite {
+  text-align: right;
+  padding-right: 50px;
+  font-size: 20px;
+}
+
+.flexRow {
+  display: flex;
+}
+
+.justifyContentSpaceBetween {
+  justify-content: space-between;
+}
+
+.alignItemsCenter {
+  align-items: center;
+}
+
+.justifyContentCenter {
+  justify-content: center;
+}
+
+.flexWrap {
+  flex-wrap: wrap;
+}
+
+.aImgFilmographie {
+  width: 100px;
+  height: 200px;
+  margin: 6px;
+  padding: 0px;
+  background-color: white;
+}
+
+.aImgFilmographie img {
+  object-fit: cover;
+  width: 100%;
+  height: 100px;
+  border-radius: 0px;
+}
+
+.aImgFilmographie:hover {
+  transition: 0.4s;
+  background-color: white;
+  margin: 0px;
+  padding: 6px;
+  width: 112px;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.aImgFilmographie:hover img {
+  transition: 0.4s;
+  border-radius: 20px 20px 0px 0px;
+  border-top: solid black 3px;
+  border-right: solid black 3px;
+  border-left: solid black 3px;
+}
+
+.aDansFilmographie {
+  font-size: 17px;
+  color: black;
+}
+
+.pFilmographieExposition {
+  margin-top: 100px;
+  font-size: 20px;
+}
+
+/*************** page Epilogue **********************/
+
+.divRemerciements {
+  font-size: 25px;
+}

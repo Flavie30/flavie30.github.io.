@@ -1,0 +1,89 @@
+<DOCTYPE html>
+    <html lang="fr">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Style.css" />
+        <title>ePortfolio Flavie MIGNARD | Epilogue et remerciements</title>
+    </head>
+
+    <body>
+        <main>
+            <div class="slides relative">
+                <div class="w3-display-container mySlides relative">
+                    <img src="C:\Users\flavi\Documents\Reprise études\Site internet 2 Julien\Ski.png" alt="Image de Flavie Mignard devant une montagne enneigée">
+                    <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">
+                        <a class="positionAbsolute aEpilogue a" href="Epilogue_et_Remerciements.html">Epilogue</a>
+                    </div>
+                </div>
+				
+				<div class="mySlides relative">
+                    <img src="C:\Users\flavi\Documents\Reprise études\Site internet 2 Julien\Incipit.png" alt="Image d'accueil : Flavie Mignard">
+                    <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                        <a class="positionAbsolute aIncipit a" href="Incipit.html">Incipit</a>
+                    </div>
+                </div>
+
+                <div class="w3-display-container mySlides relative">
+                    <img src="C:\Users\flavi\Documents\Reprise études\Site internet 2 Julien\CV.png" alt="Image artistique de Flavie Mignard">
+                    <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+                        <a class="positionAbsolute aCurriculum_Vitae a" href="Curriculum_Vitae.html">Curriculum
+                            vitae</a>
+                    </div>
+                </div>
+
+                <div class="w3-display-container mySlides relative">
+                    <img src="C:\Users\flavi\Documents\Reprise études\Site internet 2 Julien\A coeur.png" alt="Image Flavie Mignard">
+                    <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+                        <a class="positionAbsolute aAcoeur a" href="A_cœur.html">A coeur</a>
+                    </div>
+                </div>
+
+                <div class="w3-display-container mySlides relative">
+                    <img src="C:\Users\flavi\Documents\Reprise études\Site internet 2 Julien\Graines.png" alt="Image d'arbres">
+                    <div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black">
+                        <a class="positionAbsolute aFilmographie a" href="Filmographie.html">Filmographie</a>
+                    </div>
+                </div>
+				
+                <div class="boutons">
+                    <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+                    <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+                </div>
+            </div>
+
+            <script>
+                var slideIndex = 1;
+                showDivs(slideIndex);
+
+                function plusDivs(n) {
+                    showDivs(slideIndex += n);
+                }
+
+                function showDivs(n) {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    if (n > x.length) { slideIndex = 1 }
+                    if (n < 1) { slideIndex = x.length }
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";
+                    }
+                    x[slideIndex - 1].style.display = "block";
+                }
+            </script>
+
+           <p>Merci à mon prof d'informatique - dont honnêtement je pensais que ses cours ne me serviraient jamais,<br/> 
+		   merci à Yekta pour son aide aux prémisses de la constitution de ce site web, <br/> 
+            merci à mon père pour sa recherche dans les aides à constituer un site internet,<br/>
+			merci à Thomas pour toutes ces magnifiques photos, <br/>
+            merci à Julien pour m'avoir aidé à mettre mes vidéos sur mon site et énormément aidé pour la mise en page,<br/>
+            </p>
+
+            <img class="imgAnnex" src="C:\Users\flavi\Documents\Reprise études\Site internet 2 Julien\IMG-20230227-WA0004.jpg" alt="Myself" width="300" height="600" />
+        </main>
+
+    </body>
+
+    </html>

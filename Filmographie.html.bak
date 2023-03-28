@@ -1,0 +1,260 @@
+<DOCTYPE html>
+    <html lang="fr">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Style.css" />
+        <title>ePortfolio Flavie MIGNARD | Filmographie</title>
+    </head>
+
+    <body>
+        <header>
+            <div class="slides relative">
+
+                <div class="w3-display-container mySlides relative">
+                    <img src="C:\Users\flavi\Documents\Reprise études\Site internet 2 Julien\Graines.png" alt="Image d'arbres">
+                    <div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black">
+                        <a class="positionAbsolute aFilmographie a" href="Filmographie.html">Filmographie</a>
+                    </div>
+                </div>
+
+                <div class="w3-display-container mySlides relative">
+                    <img src="C:\Users\flavi\Documents\Reprise études\Site internet 2 Julien\Ski.png" alt="Image de Flavie Mignard devant une montagne enneigée">
+                    <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">
+                        <a class="positionAbsolute aEpilogue a" href="Epilogue_et_Remerciements.html">Epilogue et
+                            remerciements</a>
+                    </div>
+                </div>
+				
+				<div class="mySlides relative">
+                    <img src="C:\Users\flavi\Documents\Reprise études\Site internet 2 Julien\Incipit.png" alt="Image d'accueil : Flavie Mignard">
+                    <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                        <a class="positionAbsolute aIncipit a" href="Incipit.html">Incipit</a>
+                    </div>
+                </div>
+
+                <div class="w3-display-container mySlides relative">
+                    <img src="C:\Users\flavi\Documents\Reprise études\Site internet 2 Julien\CV.png" alt="Image artistique de Flavie Mignard">
+                    <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+                        <a class="positionAbsolute aCurriculum_Vitae a" href="Curriculum_Vitae.html">Curriculum
+                            vitae</a>
+                    </div>
+                </div>
+
+                <div class="w3-display-container mySlides relative">
+                    <img src="C:\Users\flavi\Documents\Reprise études\Site internet 2 Julien\A coeur.png" alt="Image Flavie Mignard">
+                    <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+                        <a class="positionAbsolute aAcoeur a" href="A_cœur.html">A coeur</a>
+                    </div>
+                </div>
+				
+                <div class="boutons">
+                    <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+                    <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+                </div>
+            </div>
+
+            <script>
+                var slideIndex = 1;
+                showDivs(slideIndex);
+
+                function plusDivs(n) {
+                    showDivs(slideIndex += n);
+                }
+
+                function showDivs(n) {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    if (n > x.length) { slideIndex = 1 }
+                    if (n < 1) { slideIndex = x.length }
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";
+                    }
+                    x[slideIndex - 1].style.display = "block";
+                }
+            </script>
+        </header>
+        <main>
+
+            <h2 id="Retour aux liens vidéos">Mes graines... </h2>
+            <div class="flexRow justifyContentSpaceBetween alignItemsCenter flexWrap divA">
+			
+                <a class="aImgFilmographie aDansFilmographie" href="#La mémoire de Princesse Sarah"><img
+                        src="C:\Users\flavi\Documents\Reprise études\Site internet 2 Julien\LamémoiredePrincesseSarah.png" alt=""> La mémoire de Princesse Sarah <br/>...<br/> 2018</a>
+                <a class="aImgFilmographie aDansFilmographie" href="#Oliver Twist"><img
+                        src="C:\Users\flavi\Documents\Reprise études\Site internet 2 Julien\Oliver.png" alt=""> Oliver Twist<br/>...<br/> 2018</a>
+                <a class="aImgFilmographie aDansFilmographie" href="#Se battre"><img
+                        src="C:\Users\flavi\Documents\Reprise études\Site internet 2 Julien\Se battre.png" alt="">Se battre<br/>...<br/> 2018</a>
+                <a class="aImgFilmographie aDansFilmographie" href="#Même moment différent"><img
+                        src="C:\Users\flavi\Documents\Reprise études\Site internet 2 Julien\Mêmemomentdifférent.png" alt=""> Même moment différent<br/>...<br/> 2019</a>
+                <a class="aImgFilmographie aDansFilmographie" href="#Travail final musiques"><img
+                        src="C:\Users\flavi\Documents\Reprise études\Site internet 2 Julien\Destin humain.png" alt=""> Destin humain<br/>...<br/> 2020</a>
+                <a class="aImgFilmographie aDansFilmographie" href="#Voile - les temps nocturnes"><img
+                        src="C:\Users\flavi\Documents\Reprise études\Site internet 2 Julien\Voile les temps nocturnes.png" alt=""> Voile-les temps nocturnes<br/>...<br/> 2020</a>
+                <a class="aImgFilmographie aDansFilmographie" href="#Le cycle du temps"><img
+                        src="C:\Users\flavi\Documents\Reprise études\Site internet 2 Julien\lecycledutemps.png" alt=""> Le cycle du temps<br/>...<br/> 2021</a>
+                 <a class="aImgFilmographie aDansFilmographie" href="#L'espoir de Mariana et Kelly"><img
+                        src="C:\Users\flavi\Documents\Reprise études\Site internet 2 Julien\L'espoir de Mariana et Kelly.png" alt=""> L'espoir de Mariana et Kelly<br/>...<br/> 2021</a>
+				<a class="aImgFilmographie aDansFilmographie" href="#Ma Mamé"><img
+                        src="C:\Users\flavi\Documents\Reprise études\Site internet 2 Julien\mamé.png" alt=""> Ma Mamé<br/>...<br/> 2022</a>
+                <a class="aImgFilmographie aDansFilmographie" href="#Temps de rêves"><img
+                        src="C:\Users\flavi\Documents\Reprise études\Site internet 2 Julien\tempsderêves.png" alt=""> Temps de rêves<br/>...<br/> 2022</a>
+
+                <a class="aImgFilmographie aDansFilmographie" href="#"><img
+                        src="./image/Images Filmographie/Temps de rêves.jpg" alt=""> </a>
+            </div>
+
+<p> Cette page permet <br/>
+d'avoir une rétrospective sur tous les travaux réalisés, <br/>
+de découvrir ma diversité créative <br/>
+de constater l'évolution dans ma production audiovisuelle.</p>
+
+<p> Notes importantes : toutes ces réalisations sont réservées exclusivement à un visionnage privée, elles ne sont pas destinées à être publiques.<br/>
+Tous leurs droits sont réservés à la réalisatrice, moi-même, Flavie Mignard, afin de respecter l'intimité et l'intégrité des acteurs amateurs.<br/>
+Tout utilisation, publication, reprise est formellement proscrite. </p>
+
+            <div id="cadre_image" class="bottom">
+
+                <h2 id="La mémoire de Princesse Sarah">La mémoire de Princesse Sarah</h2>
+                <video width="320" height="240" controls>
+                    <source src="C:\Users\flavi\Documents\Reprise études\Site internet\ConcoursPrincesseSarah.mp4.mp4"
+                        type=video/mp4>
+                </video>
+                 <p> Origine création : en janvier 2018, un concours est organisé autour de la série de bande-dessinées "Princesse Sarah",<br/>
+	                invitant à produire un cosplay.</br>
+	                La chair passe, le matériel demeure.</p>
+
+                <a href="#Retour aux liens vidéos">Cliquez ici pour retourner aux liens vidéos !</a>
+
+
+                <h2 id="Oliver Twist">Oliver Twist</h2>
+                <video width="320" height="240" controls>
+                    <source
+                        src="C:\Users\flavi\Documents\Reprise études\Site internet\OliverTwistbyMathilde,Romane,Flavie.mp4.mp4"
+                        type=video/mp4>
+                </video>
+                <p> Origine création : en février 2018, un devoir indiqué par une professeure d'anglais au lycée, <br/> 
+	            réalisé avec des amies de classe de première littéraire.<br/>
+	            L'occasion de revisiter et d'adapter le classique de la littérature anglaise Oliver Twist de Charles Dickens. </p>
+
+                <a href="#Retour aux liens vidéos">Cliquez ici pour retourner aux liens vidéos !</a>
+
+                <h2 id="Se battre">Se battre</h2>
+                <video width="320" height="240" controls>
+                    <source src="C:\Users\flavi\Documents\Reprise études\Site internet\Sebattre(filmtéléthon).mp4.mov"
+                        type=video/mp4>
+                </video>
+                 <p> Origine création : en novembre 2018 pour la 4ème édition du Téléthon du cinéma . <br/>
+                	Face aux épreuves de la vie, ne jamais abandonner et se soutenir. <br/> </p>
+
+                <a href="#Retour aux liens vidéos">Cliquez ici pour retourner aux liens vidéos !</a>
+
+                <h2 id="Même moment différent">Même moment différent</h2>
+                <video width="320" height="240" controls>
+                    <source
+                        src="C:\Users\flavi\Documents\Reprise études\Site internet\Mêmemomentdifférent(concoursécoleClaudeLelouch).mp4.mp4"
+                        type=video/mp4>
+                </video>
+               <p>Origine création : en février 2019 à l'occasion du concours d'entrée de l'école Les Ateliers du Cinéma <br/> 
+	            de Claude Lelouch située à Beaune; la contrainte étant d'utiliser seulement les téléphones pour filmer. <br/> 
+   	            L'ambivalence d'un instant selon le lieu de notre chemin. </p>
+
+                <a href="#Retour aux liens vidéos">Cliquez ici pour retourner aux liens vidéos !</a>
+
+                <h2 id="Destin humain">Destin humain</h2>
+                <video width="320" height="240" controls>
+                    <source src="C:\Users\flavi\Documents\Reprise études\Site internet\Travailfinalmusiques.mp4.mp4"
+                        type=video/mp4>
+                </video>
+                <p> Origine création : en avril 2020, dans le cadre du cours Ecriture créatives de ma première année de licence;<br/> 
+	             l'objectif étant de former une mise en voix de poésies contemporaines. <br/>
+   	             Un travail exploitant les échos à l'intérieur de différents textes musicaux <br/>
+	             afin de recréer une nouvelle trame narrative à partir de leurs échos...<br/> 
+	             Son contexte de création explique en partie sa gravité - bien que réaliste selon moi. </p>
+
+                <a href="#Retour aux liens vidéos">Cliquez ici pour retourner aux liens vidéos !</a>
+
+                <h2 id="Voile - les temps nocturnes">Voile-les temps nocturnes</h2>
+                <video width="320" height="240" controls>
+                    <source src="C:\Users\flavi\Documents\Reprise études\Site internet\Voile-Lestempsnocturnes.mp4.mp4"
+                        type=video/mp4>
+                </video>
+                  	 <p>Origine création : en mai 2020 pour le concours de Création étudiante dans la catégorie court-métrage organisé par le Crous <br/> 
+	                 et les établissements d'enseignements supérieurs, ayant pour thématique "Alchimie". <br/>
+   	                 Définition Alchimie du Centre National des Ressources Linguistiques :<br/> 
+                	 "Pratique de recherche en vogue notamment au Moyen Âge, ayant pour objet principal la composition d'élixir de longue vie <br/>
+	                  et de la panacée universelle, et la découverte de la pierre philosophale <br/>
+	                  en vue de la transmutation des métaux vils en métaux précieux." <br/>
+                      Définition Panacée du Centre National des Ressources Linguistiques :<br/>
+                	 "HIST. DE LA MÉD., ALCHIM. Remède de caractère universel,<br/>
+                	 censé posséder la propriété de guérir à lui seul toutes les maladies,<br/>
+                	 et représentant l'un des buts des recherches alchimiques."<br/>
+                     Définition Philosphale du Centre National des Ressources Linguistiques :<br/>
+                 	"Pierre philosophale. Substance longtemps recherchée qui,<br/> 
+                	 mise au contact des métaux vils, était supposée les transmuer en or."</p>
+
+                <a href="#Retour aux liens vidéos">Cliquez ici pour retourner aux liens vidéos !</a>
+
+                <h2 id="Le cycle du temps">Le cycle du temps</h2>
+                <video width="320" height="240" controls>
+                    <source
+                        src="C:\Users\flavi\Documents\Reprise études\Site internet\Lecycledutemps.(fichiercompressé).mp4.mp4"
+                        type=video/mp4>
+                </video>
+                <p>Origine création : en mai 2021 pour le concours de Création étudiante dans la catégorie court-métrage organisé par le Crous <br/>
+	            et les établissements d'enseignements supérieurs, ayant pour thématique "2050". <br/>
+   	            A partir des années comportant les chiffres 2,0 et 5, en cherchant à travers des faits historiques, en immortalisant des instants présents, <br/> 
+	            en lisant les fables d'Esope -premier fabuliste connu-, une liaison se crée afin d'imaginer un possible futur...<br/></p>
+	 
+                <a href="#Retour aux liens vidéos">Cliquez ici pour retourner aux liens vidéos !</a>
+
+                <h2 id="L'espoir de Mariana et Kelly">L'espoir de Mariana et Kelly</h2>
+                <video width="320" height="240" controls>
+                    <source
+                        src="C:\Users\flavi\Documents\Reprise études\Site internet\L'espoir de Mariana et Kelly.mp4.mp4"
+                        type=video/mp4>
+                </video>
+               <p> Origine création : décembre 2021 dans le cadre du cours Recherche, cinéma et création de ma troisième année de licence. </br>
+                 Essai filmique sur Mariana Otera et Kelly Reichardt,<br/> 
+				 conduisant à une réflexion sur l'essence du cinéma et la place des femmes dans celui-ci.</p>
+
+                <a href="#Retour aux liens vidéos">Cliquez ici pour retourner aux liens vidéos !</a>
+
+
+                <h2 id="Ma Mamé">Ma Mamé</h2>
+                <video width="320" height="240" controls>
+                    <source src="C:\Users\flavi\Documents\Reprise études\Site internet\FlavieMignardMaMamé.mp4.mp4"
+                        type=video/mp4>
+                </video>
+                <p> Origine création : en avril 2022 pour <a href = "https://www.leprojetmoteur.org/" target = "_blank"> le concours Moteur!</a> . <br/>
+   	            "Une seule règle : réaliser un film de 1min30 sur une personne qui t’inspire"<br/> </p>
+
+                <a href="#Retour aux liens vidéos">Cliquez ici pour retourner aux liens vidéos !</a>
+				
+		         <h2 id="Temps de rêves">Temps de rêves</h2>
+                <video width="320" height="240" controls>
+                    <source src="C:\Users\flavi\Documents\Reprise études\Site internet\Temps de rêves.mp4.mp4"
+                        type=video/mp4>
+                </video>
+                <p>Origine création : en mai 2022 pour le concours de Création étudiante dans la catégorie court-métrage organisé par le Crous et <br/> 
+	             les établissements d'enseignements supérieurs, ayant pour thématique "Rêve".<br/>
+                 Définition Rêve du Centre National des Ressources Linguistiques : <br/>
+	             A. − [Pendant le sommeil] <br/>
+                 1. Suite d'images, de représentations qui traversent l'esprit, avec la caractéristique d'une conscience illusoire <br/>
+	             telle que l'on est conscient de son rêve, sans être conscient que l'on rêve. <br/>
+                 B. − [Dans l'état de veille] <br/>
+                 3. Objet d'un projet, d'un désir."</p>
+
+                <a href="#Retour aux liens vidéos">Cliquez ici pour retourner aux liens vidéos !</a>
+				
+            </div>
+            <aside>
+
+            </aside>
+        </main>
+
+    </body>
+
+    </html>

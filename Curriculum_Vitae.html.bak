@@ -1,0 +1,142 @@
+<DOCTYPE html>
+    <html lang="fr">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Style.css" />
+        <title>ePortfolio Flavie MIGNARD | Curriculum vitae</title>
+    </head>
+
+    <body>
+        <main>
+            <div class="slides relative">
+                <div class="w3-display-container mySlides relative">
+                    <img src="C:\Users\flavi\Documents\Reprise études\Site internet 2 Julien\CV.png" alt="Image artistique de Flavie Mignard">
+                    <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+                        <a class="positionAbsolute aCurriculum_Vitae a" href="Curriculum_Vitae.html">Curriculum
+                            vitae</a>
+                    </div>
+                </div>
+
+                <div class="w3-display-container mySlides relative">
+                    <img src="C:\Users\flavi\Documents\Reprise études\Site internet 2 Julien\A coeur.png" alt="Image Flavie Mignard">
+                    <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
+                        <a class="positionAbsolute aAcoeur a" href="A_cœur.html">A coeur</a>
+                    </div>
+                </div>
+
+                <div class="w3-display-container mySlides relative">
+                    <img src="C:\Users\flavi\Documents\Reprise études\Site internet 2 Julien\Graines.png" alt="Image d'arbres">
+                    <div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black">
+                        <a class="positionAbsolute aFilmographie a" href="Filmographie.html">Filmographie</a>
+                    </div>
+                </div>
+
+                <div class="w3-display-container mySlides relative">
+                    <img src="C:\Users\flavi\Documents\Reprise études\Site internet 2 Julien\Ski.png" alt="Image de Flavie Mignard devant une montagne enneigée">
+                    <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">
+                        <a class="positionAbsolute aEpilogue a" href="Epilogue_et_Remerciements.html">Epilogue et
+                            remerciements</a>
+                    </div>
+                </div>
+				
+				 <div class="mySlides relative">
+                    <img src="C:\Users\flavi\Documents\Reprise études\Site internet 2 Julien\Incipit.png" alt="Image d'accueil : Flavie Mignard">
+                    <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                        <a class="positionAbsolute aIncipit a" href="Incipit.html">Incipit</a>
+                    </div>
+                </div>
+				
+                <div class="boutons">
+                    <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+                    <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+                </div>
+            </div>
+
+            <script>
+                var slideIndex = 1;
+                showDivs(slideIndex);
+
+                function plusDivs(n) {
+                    showDivs(slideIndex += n);
+                }
+
+                function showDivs(n) {
+                    var i;
+                    var x = document.getElementsByClassName("mySlides");
+                    if (n > x.length) { slideIndex = 1 }
+                    if (n < 1) { slideIndex = x.length }
+                    for (i = 0; i < x.length; i++) {
+                        x[i].style.display = "none";
+                    }
+                    x[slideIndex - 1].style.display = "block";
+                }
+            </script>
+
+            <h2> Des pétales... </h2>
+            <a href="#Emplois">Emplois</a>
+            <a href="#Bénévolat">Bénévolat</a>
+            <a href="#Stages">Stages</a>
+            <a href="#Diplômes">Diplômes</a>
+            <a href="#Formations">Formations</a>
+            <a href="#Passions">Passions</a>
+            <a href="#Voyages">Voyages</a>
+
+            <h2 id="Emplois">Emplois</h2>
+            <p> 2022-2023 - assistante de langue française à Madrid (Espagne) <br />
+                <font face=Cooper Black> Perfectionniste</font>. <br />
+                2021-2022 - gestionnaire du matériel audiovisuel de la fac <br />
+                <font face=Cooper Black>Sérieuse</font>. <br />
+                2020-2022 - animatrice dans l’association des familles rurales de Calvisson <br />
+                <font face=Cooper Black>Créative</font>.<br />
+                2020-2021 - animatrice au Contrat Local d’Accompagnement à la Scolarité de Valence avec les
+                primaires <br />
+                <font face=Cooper Black>Altruiste</font>.<br />
+                2020 - plongeuse au Carpe Diem, restaurant calvissonais <br />
+                <font face=Cooper Black>Organisée</font>.<br />
+                2018 - vendeuse de fruits et de légumes, marché de Calvisson <br />
+                <font face=Cooper Black>Souriante</font>.<br />
+                - femme de ménage, résidence-Club Odalys, Calvisson <br />
+                <font face=Cooper Black>Esprit d'équipe</font>.
+            </p>
+
+            <h2 id="Bénévolat">Bénévolat</h2>
+            <p>2021-2022 : Association étudiante Projection de la fac de Valence en tant que secrétaire pour
+                l’organisation du festival ça cinéma.<br />
+                2021 : Une Banque alimentaire.<br />
+                2017 : Association de badminton Les Volants de Calvisson, animatrice section jeunes. </p>
+
+            <h2 id="Stages">Stages</h2>
+            <p>2021 - au LUX, Scène nationale de Valence.<br />
+                2017 - Way to stage (école de comédie musicale, Le Soler).<br />
+                2016 - clinique vétérinaire du Soleil, Aimargues. </p>
+
+            <h2 id="Diplômes">Diplômes</h2>
+            <p>Juillet 2021 - BAFA (Brevet d’Aptitude aux Fonctions d’Animateur). <br />
+                Mai 2021 - CLES(Certificat de compétences en langues de l'enseignement supérieur) : validation B2
+                anglais, B1 espagnol. <br />
+                Janvier 2020 - Permis B(véhicule léger).<br />
+                Avril 2018 - PSC1(Prévention et secours civiques de niveau 1).</p>
+
+            <h2 id="Formations">Formations</h2>
+            <p>2019 - 2022 : Licence Arts du spectacle – Lettres modernes mention bien, université Grenoble-Alpes,
+                Valence. <br />
+                2016 - 2019 : Baccalauréat littéraire, section espagnole européenne mention Très Bien, lycée Albert
+                Camus, Nîmes.<br />
+                2012 – 2016 : Brevet des collèges mention Très Bien, Collège Le Vignet, Calvisson. </p>
+
+            <h2 id="Passions">Passions</h2>
+            <p> Apprendre, lecture, découvrir, cinéma, voyager, photographie, goûter, sport </p>
+
+            <h2 id="Voyages">Voyages</h2>
+            <p> France, Italie, Suisse, Roumanie, Etats-Unis, Sri Lanka, Turquie, Grèce, Espagne. </p>
+
+            <img class="imgAnnex" src="C:\Users\flavi\Documents\Reprise études\Site internet 2 Julien\IMG-20230227-WA0038.jpg" alt="Myself" width="300" height="600" />
+
+        </main>
+
+    </body>
+
+    </html>
